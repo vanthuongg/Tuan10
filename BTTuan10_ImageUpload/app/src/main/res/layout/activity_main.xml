@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <!-- EditText nhập tên người dùng -->
+    <EditText
+        android:id="@+id/editUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên người dùng"/>
+
+    <!-- TextView hiển thị tên -->
+    <TextView
+        android:id="@+id/tvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên người dùng"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:paddingTop="10dp"/>
+
+    <!-- ImageView hiển thị ảnh được chọn -->
+    <ImageView
+        android:id="@+id/imgChoose"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"/>
+
+    <!-- ImageView hiển thị ảnh sau khi tải lên -->
+    <ImageView
+        android:id="@+id/imgMultipart"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Nút chọn ảnh -->
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn Ảnh"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Nút tải ảnh lên -->
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tải Lên"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>
